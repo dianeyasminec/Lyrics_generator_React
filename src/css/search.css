@@ -1,0 +1,75 @@
+.artists_img{
+    width:180px;
+
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  transition: transform .2s;
+ 
+}
+.artists_img:hover{
+    -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5);
+}
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Float four columns side by side */
+  .column {
+   
+    width: 100%;
+    padding: 0 1px;
+  }
+  
+  /* Remove extra left and right margins, due to padding */
+  .row {margin: 0 -1px;}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive columns */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    /* padding: 0px 1px 75px 150px; */
+    padding: 150px;
+   
+    background-color: #f1f1f1;
+   
+    
+   }
+  .container-card{
+   
+  margin-top: -150px;
+  margin-left: -100px;
+
+  
+  } 
+
+  .card-title{
+    text-align: left;
+    padding-top: - 50px;
+  }
+
+  .artist_date-display{
+    text-align: left;
+
+  }

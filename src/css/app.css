@@ -1,0 +1,10 @@
+@import'home.css';
+@import 'favoritesSongs.css';
+@import 'search.css';
+
+
+
+.medias:link{
+text-decoration: none;
+}
+
