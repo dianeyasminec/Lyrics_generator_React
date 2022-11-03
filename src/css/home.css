@@ -1,11 +1,18 @@
-img{
+/* img{
     height:170px;
-    position: relative;
+    
     top: -17px;
     width: 100%;
     float: left;
+} */
+.imgHome{
+    width:700px;
+    height:400px;
 }
-.a:hover{
-    text-decoration: underline;
-   color: red;
+.imgArt{
+    width:500px;
+    height:auto;
+}
+a{
+    text-decoration: none;
 }

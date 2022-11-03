@@ -8,3 +8,18 @@
 text-decoration: none;
 }
 
+img{
+    width: 1300px;
+    height:200px;
+    
+}
+
+.links{
+position: absolute;
+  bottom: 18px;
+  right: 10px;
+  font-size: 18px;
+}
+.container {
+    position: relative;
+  }
